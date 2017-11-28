@@ -1,2 +1,3 @@
-FROM busybox:latest
-CMD echo Hello World !!
+FROM ubuntu:14.04
+RUN apt-get update -y
+RUN apt-get install -y wget
